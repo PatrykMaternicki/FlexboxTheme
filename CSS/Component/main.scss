@@ -1,0 +1,91 @@
+@import '../Functions/var.scss';
+@import '../Functions/mixin.scss';
+
+.main{
+  @include margin (auto,auto,0,25px);
+  @include size (90%,auto);
+
+}
+
+.main-flexbox{
+  @include size(100%,845px);
+  display:flex;
+  flex-wrap:wrap;
+  justify-content: space-between;
+  @include margin (auto,auto,25px,25px);
+
+}
+
+.flex-square{
+  width:365px;
+  height:365px;
+}
+
+.square{
+  float:left;
+  position: relative;
+  width: 100%;
+  padding-bottom : 100%;
+  background-color:white;
+  overflow:hidden;
+  margin-bottom:4.8%;
+  border-radius: 22px 22px 22px 22px;
+  -moz-border-radius: 22px 22px 22px 22px;
+  -webkit-border-radius: 22px 22px 22px 22px;
+  border: 0px solid #000000;
+  height:0px;
+}
+
+
+.item-wraper{
+  @include size (90%,auto);
+  @include margin (auto,auto,0px,5%);
+}
+.item-title{
+  font-size:120%;
+  color:$item-title-color;
+}
+.item-date{
+  @include margin (0,0,0,2%);
+  color: $item-date-color;
+}
+.item-article{
+  @include margin(0,0,0,5%);
+  color: $item-article-color;
+}
+
+.item-footer{
+  @include size (100%,auto);
+  @include printBorderTop(1px, solid , $item-footer-color-border);
+  position:absolute;
+  top:80%;
+  left:0%;
+}
+.footer-wraper{
+  @include size(90%,auto);
+  @include margin (auto,auto,0px,0px);
+  padding-top:5%;
+}
+
+.voter{
+  display:inline;
+  color:$item-voter-color;
+  position:relative;
+}
+.voter-image{
+  @include size (32px,32px);
+  display:inline;
+}
+.voter-text{
+  position:absolute;
+  top:-50%;
+  display:inline;
+  width:100px;
+
+}
+.category-post{
+  position:absolute;
+  top:50%;
+  right:10%;
+  color:$item-category-post-color;
+}

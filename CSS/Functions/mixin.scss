@@ -1,0 +1,18 @@
+@mixin size ($width,$height){
+  width:$width;
+  height:$height;
+}
+
+@mixin printBorderBottom($sizeLine, $typeLine, $color){
+  border-bottom: $sizeLine $typeLine $color;
+}
+
+@mixin printBorderTop($sizeLine,$typeLine,$color){
+  border-top: $sizeLine $typeLine $color;
+}
+@mixin margin ($margin-left,$margin-right,$margin-bottom,$margin-top){
+  margin-left: $margin-left;
+  margin-right: $margin-right;
+  margin-bottom: $margin-bottom;
+  margin-top:$margin-top;
+}

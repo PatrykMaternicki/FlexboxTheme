@@ -1,0 +1,10 @@
+@import '../Functions/mixin.scss';
+.main--phone{
+  @include size (100%,auto);
+}
+.header--phone{
+  @include size (95%,auto);
+}
+.flex-square--phone{
+  @include size (325px,325px);
+}

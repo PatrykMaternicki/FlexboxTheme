@@ -1,0 +1,17 @@
+@import 'normalize.css';
+@import 'Functions/var.scss';
+@import 'reset.scss';
+@import 'Functions/mixin.scss';
+@import 'Component/nav.scss';
+@import 'Component/main.scss';
+
+body,html{
+  background-color:$background-body;
+}
+@media all and (max-width:1220px){
+  @import 'media-queries/1220width.scss';
+}
+
+@media all and (max-width:820px){
+  @import 'media-queries/820width.scss';
+}
