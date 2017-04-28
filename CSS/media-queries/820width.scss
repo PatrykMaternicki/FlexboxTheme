@@ -8,3 +8,11 @@
 .flex-square--phone{
   @include size (325px,325px);
 }
+.category-post--820w{
+  top:110%;
+}
+
+.square:hover .item-footer--820w{
+  left:55%;
+  top:45%;
+}
