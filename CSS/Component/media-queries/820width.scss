@@ -1,0 +1,4 @@
+@import '../../Functions/mixin.scss';
+.main--phone{
+  @include size (100%,auto);
+}
