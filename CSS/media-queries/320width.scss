@@ -4,8 +4,13 @@
   @include size (275px,275px);
 }
 
-.item-title--phone320w , .item-date--phone320w, .voter-text-phone320w{
+.item-title--phone320w , .item-date--phone320w, .voter-text-phone320w {
   font-size:80%;
+}
+
+.category-post--320w{
+  font-size:80%;
+  top:100%;
 }
 
 .item-article--phone320w{

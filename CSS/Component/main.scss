@@ -21,6 +21,10 @@
   @include margin (0,0,0,4.8%);
 }
 
+.flex-square--marginbottom{
+  margin-bottom:4.8%;
+}
+
 .square{
   float:left;
   position: relative;
@@ -137,7 +141,7 @@
   @include size (100%,auto);
   @include printBorderTop(1px, solid , $item-footer-color-border);
   position:absolute;
-  top:80%;
+  top:85%;
   left:0%;
 }
 .footer-wraper{
